@@ -18,7 +18,7 @@ This app has one Swift package dependency on [BetterSafariView](https://github.c
 3. Build/Run
 
 # Result Summary
-### **WKWebView** `[NOT WORKING]` - 
+### **WKWebView** `[NOT WORKING]`
 On iPad with USB-C, WKWebView does not support the default native interaction with a USB-C connected YubiKey. It does not appear to recognize the inserted YubiKey as a smart card by default. 
 
 On an iPhone or iPad w/Lightning connector, the WKWebView also does not see a connected YubiKey 5Ci (even after smart card support was added in iOS 16). In addition, the WKWebView does not have the ability to read the iOS Keychain for any saved certificates. Developers can modify their apps by adding the CryptoTokenKit framework to read save tokens, present those tokens as certificates, and rely on a 3rd party middleware app like Yubico Authenticator to complete authentication.
