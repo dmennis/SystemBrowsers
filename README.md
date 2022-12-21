@@ -36,4 +36,4 @@ For iPadOS 16.1 with USB-C --> Identifies the inserted YubiKey over USB-C as a s
 For iPhone/iPad (16+) with Lightning connector --> Browser has the ability to see certificates/tokens on the Keychain and present to the user but requires a 3rd party middleware app like the Yubico Authenticator to be installed to interact directly with the connected YubiKey. In this case, the Yubico Authenticator will interact with a YubiKey over NFC, if available. 
 
 # Demo
-![SFSafariViewController - iPhone Xr iOS 16.1](/assets/videos/SFSafariViewController-iOS16.gif)
+![BrowsersDemo - iPhone Xr iOS 16.1](/assets/videos/SystemBrowsersDemo.gif)
